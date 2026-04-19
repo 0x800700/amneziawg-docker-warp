@@ -1,0 +1,15 @@
+# Config directory - contains private keys, never commit these
+config/awg0.conf
+config/wg0.conf
+config/*_private
+config/*_public
+config/*_client.conf
+config/server_private
+config/server_public
+
+# Environment file with secrets
+.env
+
+# Temporary files
+/tmp/
+*.log
